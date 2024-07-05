@@ -1,0 +1,55 @@
+CREATE DATABASE  IF NOT EXISTS `tastynavigator` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `tastynavigator`;
+-- MySQL dump 10.13  Distrib 8.0.34, for Win64 (x86_64)
+--
+-- Host: localhost    Database: tastynavigator
+-- ------------------------------------------------------
+-- Server version	8.0.35
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `django_session`
+--
+
+DROP TABLE IF EXISTS `django_session`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `django_session` (
+  `session_key` varchar(40) NOT NULL,
+  `session_data` longtext NOT NULL,
+  `expire_date` datetime(6) NOT NULL,
+  PRIMARY KEY (`session_key`),
+  KEY `django_session_expire_date_a5c62663` (`expire_date`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `django_session`
+--
+
+LOCK TABLES `django_session` WRITE;
+/*!40000 ALTER TABLE `django_session` DISABLE KEYS */;
+INSERT INTO `django_session` VALUES ('2wfhzobmmepaeu8gnoanrnqvxf15ps40','.eJxVjMEOwiAQRP-FsyFLYZfi0Xu_gQBLpWpoUtqT8d9tkx70Npn3Zt7Ch20tfmt58ROLq1Di8tvFkJ65HoAfod5nmea6LlOUhyJP2uQwc37dTvfvoIRW9rXuCalHVI4YjOkYICbGPUYCILQqaRodWNA2KsCMxtkUumwdjRqN-HwBlVw18w:1rD3QP:9wPlpD-iT13o6cTHT1SSZ0nQZ6Op4WBK9kNaq0Z6IXw','2023-12-26 14:07:53.298273'),('ebfwm517uvb944cvk43t5v4vvno7f0pc','.eJxVjMEOwiAQRP-FsyFLYZfi0Xu_gQBLpWpoUtqT8d9tkx70Npn3Zt7Ch20tfmt58ROLq1Di8tvFkJ65HoAfod5nmea6LlOUhyJP2uQwc37dTvfvoIRW9rXuCalHVI4YjOkYICbGPUYCILQqaRodWNA2KsCMxtkUumwdjRqN-HwBlVw18w:1rCDVG:tw5cENNQThLq2WNo6jvp82uFiQSmod3J76eqLQc4Bwo','2023-12-24 06:41:26.554113'),('lm6smqt2ohez3w8nlfb7nnaq5my07a5d','.eJxVjMEOwiAQRP-FsyFLYZfi0Xu_gQBLpWpoUtqT8d9tkx70Npn3Zt7Ch20tfmt58ROLq1Di8tvFkJ65HoAfod5nmea6LlOUhyJP2uQwc37dTvfvoIRW9rXuCalHVI4YjOkYICbGPUYCILQqaRodWNA2KsCMxtkUumwdjRqN-HwBlVw18w:1rCDVH:GHeU03cbOt07hSdY1TIOKw_eti5HPz1K7rvOOsUMUOk','2023-12-24 06:41:27.021768'),('lwanqfs22llrxoqgrz68wzoyt8vdcmio','.eJxVjMEOwiAQRP-FsyFLYZfi0Xu_gQBLpWpoUtqT8d9tkx70Npn3Zt7Ch20tfmt58ROLq1Di8tvFkJ65HoAfod5nmea6LlOUhyJP2uQwc37dTvfvoIRW9rXuCalHVI4YjOkYICbGPUYCILQqaRodWNA2KsCMxtkUumwdjRqN-HwBlVw18w:1rCDVH:GHeU03cbOt07hSdY1TIOKw_eti5HPz1K7rvOOsUMUOk','2023-12-24 06:41:27.113183'),('oz72urp9nc6u0qrnuvgn8qac48ikaews','.eJxVjMEOwiAQRP-FsyFLYZfi0Xu_gQBLpWpoUtqT8d9tkx70Npn3Zt7Ch20tfmt58ROLq1Di8tvFkJ65HoAfod5nmea6LlOUhyJP2uQwc37dTvfvoIRW9rXuCalHVI4YjOkYICbGPUYCILQqaRodWNA2KsCMxtkUumwdjRqN-HwBlVw18w:1rCDVG:tw5cENNQThLq2WNo6jvp82uFiQSmod3J76eqLQc4Bwo','2023-12-24 06:41:26.850154'),('s22jlt47n44p6xp8ys95enzw3t0k3thh','.eJxVjEEOwiAQRe_C2pAZSqG4dN8zNDMDStVAUtqV8e7apAvd_vfef6mJtjVPW0vLNEd1VhjU6XdkkkcqO4l3KreqpZZ1mVnvij5o02ON6Xk53L-DTC1_a3N1thOixAEYMcHgJLDzGB14T2hjTzKwwUAeewnSGcNkETwAE3r1_gALiTey:1rCwKi:t5-6fUUC9hXid4SeKTU3FfrsdmKXAdM9oKUobG643PE','2023-12-26 06:33:32.293980'),('sf8iio02f4884mcouqftq82w528gam54','.eJxVjMEOwiAQRP-FsyFLYZfi0Xu_gQBLpWpoUtqT8d9tkx70Npn3Zt7Ch20tfmt58ROLq1Di8tvFkJ65HoAfod5nmea6LlOUhyJP2uQwc37dTvfvoIRW9rXuCalHVI4YjOkYICbGPUYCILQqaRodWNA2KsCMxtkUumwdjRqN-HwBlVw18w:1rCDVG:tw5cENNQThLq2WNo6jvp82uFiQSmod3J76eqLQc4Bwo','2023-12-24 06:41:26.721630');
+/*!40000 ALTER TABLE `django_session` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-12-15 23:15:32

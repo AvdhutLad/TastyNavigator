@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03803eb4-a426-4214-9512-351ecc7a88cb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/TastyNavigator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TastyNavigator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TastyNavigator/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TastyNavigator/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cart_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cart_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/filter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recommendation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recommendation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/userorder.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/userorder.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Zlo412zI6wFuZwKwOHZXsDxSNb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Avadhut Lad/Desktop/Project/Documentations/TastyNavigator&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03803eb4-a426-4214-9512-351ecc7a88cb" name="Changes" comment="" />
+      <created>1703005831773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703005831773</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
